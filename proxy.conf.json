@@ -1,7 +1,0 @@
-{
-  "/api": {
-    "target": "http://colormind.io/api/",
-    "secure": false,
-    "changeOrigin": true
-  }
-}

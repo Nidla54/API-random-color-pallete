@@ -1,0 +1,28 @@
+<div class="bg-gray-100 w-screen h-screen">
+  <!--BODY-->
+
+  <div class="text-black text-4xl font-semibold pt-28
+    font-sans   flex justify-center w-full  ">
+    <!--COLOR PALETTE GENERATOR TEXT-->
+
+    <h1>Color Plaette Generator</h1>
+
+  </div>
+
+  <div class="flex flex-row justify-center gap-8 pt-20 uppercase">
+    <div class=" " *ngFor="let i of repeatArray">
+      <!--COLORS IN TEXT BOXES-->
+
+      <app-color-box [inputData]='hexArray[i]' (click)="copyColor(i)">
+
+      </app-color-box>
+    </div>
+  </div>
+
+
+  <div>
+    <!--GENERATE BUTTON-->
+    <app-button></app-button>
+  </div>
+
+</div>
